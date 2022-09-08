@@ -9,9 +9,9 @@ dotenv.config();
 connectDB();
 
 //middleware
-app.use(express.json())
+app.use("/users", userRoute)
 app.use(morgan("dev"))
- app.use("/user", userRoute)
+ app.use("/users", userRoute)
 
 
  
