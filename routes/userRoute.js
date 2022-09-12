@@ -3,6 +3,6 @@ const {addUser}=require("../controllers/userController")
 
 const router =Router();
 
-router.route("/register").post(addUser)
+router.post("/register", addUser)
 
 module.export =router

@@ -1,2 +1,2 @@
-// node_modules
+node_modules
  DB_URL= mongodb+srv://AdinatuAdams:0241932264@cluster0.o7kmc9l.mongodb.net/schoolAPI?retryWrites=true&w=majority
